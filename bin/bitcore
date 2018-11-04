@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var acmcore = require('acmcore-node/lib/cli/acmcore');
+var path = require('path');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['acm-insight-api', 'acm-insight-ui'];
+acmcore(servicesPath, additionalServices);

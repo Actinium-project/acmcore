@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var path = require('path');
+var acmcored = require('acmcore-node/lib/cli/acmcoind');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['acm-insight-api', 'acm-insight-ui'];
+acmcored(servicesPath, additionalServices);
