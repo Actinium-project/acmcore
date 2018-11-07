@@ -86,10 +86,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "acmcore-lib": "https://github.com/Actinium-project/acmcore-lib.git",
-    "acmcore-node": "https://github.com/Actinium-project/acmcore-node.git",
-    "acm-insight-api": "https://github.com/Actinium-project/acm-insight-api.git",
-    "acm-insight-ui": "https://github.com/Actinium-project/acm-insight-ui.git"
+    "acmcore-lib": "git+https://github.com/Actinium-project/acmcore-lib.git",
+    "acmcore-node": "git+https://github.com/Actinium-project/acmcore-node.git",
+    "acm-insight-api": "git+https://github.com/Actinium-project/acm-insight-api.git",
+    "acm-insight-ui": "git+https://github.com/Actinium-project/acm-insight-ui.git"
   },
   "license": "MIT",
   "devDependencies": {
